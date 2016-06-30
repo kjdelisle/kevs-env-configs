@@ -5,12 +5,14 @@
   br = branch
   st = status
   l = log --decorate
-  fp = "!git push $1 +$2"
+  fp = "!f() { git push $1 +$2; }; f"
   amend = commit --amend --no-edit
   fuck = "!git add --all && git amend"
   refm = "!git chk master && git pull && git fetch --prune"
+  rbm = rebase -i origin/master
+  tree = log --graph --oneline --decorate --simplify-by-decoration --branches
 [user]
-	email = kjdelisle@gmail.com
-	name = Kevin Delisle
+  email = kjdelisle@gmail.com
+  name = Kevin Delisle
 [core]
-	editor = vim
+  editor = vim
