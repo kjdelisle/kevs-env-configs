@@ -11,6 +11,7 @@
   refm = "!git chk master && git pull && git fetch --prune"
   rbm = rebase -i origin/master
   tree = log --graph --oneline --decorate --simplify-by-decoration --branches
+  chp = cherry-pick
 [user]
   email = kjdelisle@gmail.com
   name = Kevin Delisle
