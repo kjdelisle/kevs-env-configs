@@ -1,0 +1,14 @@
+{
+  "vim.disableAnnoyingNeovimMessage": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [80],
+  "tslint.autoFixOnSave": true,
+  "window.zoomLevel": 0,
+  "nodeTdd.testScript": "test",
+  "editor.disableTranslate3d": true,
+  "files.insertFinalNewline": true,
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": false,
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false
+}
