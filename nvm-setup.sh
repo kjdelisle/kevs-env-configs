@@ -5,5 +5,4 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh > 
 chmod +x nvm-install.sh
 ./nvm-install.sh
 
-# install node 4
-nvm install 4
+echo "Don't forget to install a version of node with 'nvm install <version>'!"
